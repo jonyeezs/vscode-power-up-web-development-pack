@@ -1,0 +1,59 @@
+{
+  "name": "vscode-power-up-web-development-pack",
+  "displayName": "Power-up Web Development Pack",
+  "description": "Power-up ⭐ your web development experience with these essential extensions (Includes TypeScript goodies)",
+  "version": "0.0.1",
+  "scripts": {
+    "prepublish": "vsce package",
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#007ACC",
+    "theme": "dark"
+  },
+  "publisher": "Jonathan",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonyeezs/vscode-power-up-web-development-pack.git"
+  },
+  "homepage": "https://medium.com/@jonyeezs/power-up-your-vscode-web-dev-experience-46de78e6a513",
+  "keywords": [
+    "essential",
+    "pack",
+    "web",
+    "development",
+    "must-have",
+    "javascript",
+    "SPA",
+    "single page application",
+    "typescript",
+    "intellisense"
+  ],
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": ["Extension Packs"],
+  "extensionPack": [
+    "eg2.vscode-npm-script",
+    "hbenl.vscode-test-explorer",
+    "techer.open-in-browser",
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "patbenatar.advanced-new-file",
+    "alefragnani.Bookmarks",
+    "lannonbr.vscode-js-annotations",
+    "t7yang.hyper-javascript-snippets",
+    "joelday.docthis",
+    "formulahendry.auto-rename-tag",
+    "Zignd.html-css-class-completion",
+    "christian-kohler.path-intellisense",
+    "ban.spellright",
+    "EditorConfig.EditorConfig",
+    "kisstkondoros.vscode-codemetrics",
+    "esbenp.prettier-vscode",
+    "MaxGotovkin.tslens",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "awesomektvn.toggle-semicolon"
+  ]
+}
